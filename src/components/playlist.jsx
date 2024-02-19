@@ -1,7 +1,5 @@
-// src/components/Playlist.js
 import React from 'react';
 import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
-// import '@atlaskit/css-reset';
 
 const Playlist = ({ videos, onVideoClick, onDragEnd }) => {
 

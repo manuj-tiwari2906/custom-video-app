@@ -317,10 +317,6 @@
     }
     .right-section {
       gap: 7px;
-
-      .menu-button {
-        // height: 9px;
-      }
     }
   }
 }
@@ -472,4 +468,12 @@
 /* Show the dropdown when it's open */
 .dropdown-content.show {
   display: block;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 973px) { 
+    .navbar-container {
+        .right-section {
+            display: none !important;
+        }
+    }
 }

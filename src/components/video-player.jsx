@@ -40,7 +40,7 @@ const VideoPlayer = ({ videoUrl, currentVideo }) => {
   }, [playbackSpeed]);
 
   return (
-    <div style={{ marginTop: '20px', width: '640px' }}>
+    <div className='player-parent' style={{ marginTop: '20px' }}>
       <ReactPlayer
         ref={playerRef}
         url={videoUrl}
