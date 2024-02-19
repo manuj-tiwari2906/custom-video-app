@@ -1,24 +1,31 @@
 // src/components/Playlist.js
 import React from 'react';
 import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
+// import '@atlaskit/css-reset';
 
 const Playlist = ({ videos, onVideoClick, onDragEnd }) => {
+
   return (
     <DragDropContext onDragEnd={onDragEnd}>
       <Droppable droppableId="playlist">
         {(provided) => (
-          <ul {...provided.droppableProps} ref={provided.innerRef}>
+          <ul className='list-play' {...provided.droppableProps} ref={provided.innerRef}>
             {videos.map((video, index) => (
               <Draggable key={video.id} draggableId={video.id} index={index}>
                 {(provided) => (
-                  <li
+                  <div
+                  className='flex'
+                  style={{ display: 'flex' }}
                     ref={provided.innerRef}
                     {...provided.draggableProps}
                     {...provided.dragHandleProps}
-                    onClick={() => onVideoClick(video)}
                   >
-                    {video.title}
-                  </li>
+                    <img src={video.thumb} />
+                    <div onClick={() => onVideoClick(video)}>
+                      <div className='title-video'>{video.title}</div>
+                      <div className='description-video'>{video.description}</div>
+                    </div>
+                  </div>
                 )}
               </Draggable>
             ))}
