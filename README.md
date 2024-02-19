@@ -27,6 +27,28 @@ project-root
 ├── vite.config.js # Vite configuration
 └── README.md # Project documentation
 
+## Getting Started
+
+Follow these instructions to set up and run the project locally.
+
+### Prerequisites
+
+- Node.js and npm installed on your machine.
+
+### Installation
+
+1. Clone the repository:
+    git clone https://github.com/your-username/your-project.git
+
+2.  Change into the project directory: 
+    cd your-project
+
+3.   Install dependencies:
+    npm install
+
+4.  To start the development server and run the application:
+    npm run dev
+
 
 ## Additional Notes
 
