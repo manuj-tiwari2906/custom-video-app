@@ -3,6 +3,7 @@ import "./navbar.scss";
 import { Button, Menu } from "antd";
 import { useNavigate, Link, useLocation } from "react-router-dom";
 import { UserOutlined } from "@ant-design/icons";
+import { PlayLogo } from "../../assets";
 // import { Logo } from "../../img";
 
 const Navbar = () => {
@@ -22,12 +23,12 @@ const Navbar = () => {
       <div className="navbar-container">
         <div className="left-section">
           <div className="logo"></div>
-          {/* <img
-          src={Logo}
+          <img
+          src={PlayLogo}
           onClick={() => navigate("/home")}
           className="logo-img"
           alt="logo"
-        /> */}
+        />
         </div>
         <div className="right-section">
           <div className="right-menu-items">

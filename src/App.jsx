@@ -112,7 +112,7 @@ const App = () => {
         "The Smoking Tire heads out to Adams Motorsports Park in Riverside, CA to test the most requested car of 2010, the Volkswagen GTI. Will it beat the Mazdaspeed3's standard-setting lap time? Watch and see...",
       url: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4",
       subtitle: "By Garage419",
-      thumb: "images/VolkswagenGTIReview.jpg",
+      thumb: "https://images.prismic.io/carwow/e02313b5-989d-42ea-bb44-9ee7ef852777_vw-golf-gti-review-thumbnail-nb-1.jpg",
       title: "Volkswagen GTI Review",
     },
     {
@@ -121,7 +121,7 @@ const App = () => {
         "The Smoking Tire is going on the 2010 Bullrun Live Rally in a 2011 Shelby GT500, and posting a video from the road every single day! The only place to watch them is by subscribing to The Smoking Tire or watching at BlackMagicShine.com",
       url: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
       subtitle: "By Garage419",
-      thumb: "images/WeAreGoingOnBullrun.jpg",
+      thumb: "https://bitcoinmagazine.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MjAzNTU2MjA1MDg2Mzg1OTcy/bullrun.jpg",
       title: "We Are Going On Bullrun",
     },
     {
@@ -130,7 +130,7 @@ const App = () => {
         "The Smoking Tire meets up with Chris and Jorge from CarsForAGrand.com to see just how far $1,000 can go when looking for a car.The Smoking Tire meets up with Chris and Jorge from CarsForAGrand.com to see just how far $1,000 can go when looking for a car.",
       url: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4",
       subtitle: "By Garage419",
-      thumb: "images/WhatCarCanYouGetForAGrand.jpg",
+      thumb: "https://carsforagrand.com/assets/images/we-did-it.jpg",
       title: "What care can you get for a grand?",
     },
     // Add more videos as needed

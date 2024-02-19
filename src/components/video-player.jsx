@@ -50,7 +50,7 @@ const VideoPlayer = ({ videoUrl, currentVideo }) => {
         onDuration={handleDuration}
         playbackRate={playbackSpeed}
       />
-      <div className='controls'>
+      {/* <div className='controls'>
         <button onClick={handlePlayPause}>{playing ? 'Pause' : 'Play'}</button>
         <input
           type='range'
@@ -61,13 +61,7 @@ const VideoPlayer = ({ videoUrl, currentVideo }) => {
           onChange={(e) => handleSeek(parseFloat(e.target.value))}
         />
         <span>{`${formatTime(currentTime)} / ${formatTime(duration)}`}</span>
-        <select value={playbackSpeed} onChange={(e) => handleSpeedChange(parseFloat(e.target.value))}>
-          <option value={0.5}>0.5x</option>
-          <option value={1.0}>1.0x</option>
-          <option value={1.5}>1.5x</option>
-          <option value={2.0}>2.0x</option>
-        </select>
-      </div>
+      </div> */}
       <div className='title-and-description'>
         <div className='title'>{currentVideo.title}</div>
         <div className='description'>{currentVideo.description}</div>
